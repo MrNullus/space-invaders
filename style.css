@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Yu Gothic Medium";
+	background-color: #000;
+	padding: 2rem;
+	text-align: center;
+	overflow: hidden;
+}
+
+h1 {
+	color: #1683B3;
+	font-size: 2.6rem;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #FFF;
+	font-size: 3.5rem;
+	margin-bottom: 12px;
+}
+
+.grid {
+	width: 400px;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 8px solid #00121F;
+	background: url('background.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-image: url('spaceship.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.laser {
+	background-image: url('fire_blue.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.boom {
+	background-color: red;
+}
